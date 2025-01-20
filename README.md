@@ -1,6 +1,6 @@
 Canvas App 📱
 
-A simple Android app built with Kotlin to display posts and user details fetched from JSONPlaceholder. 
+A simple Android app built with Kotlin to display posts and user details fetched from <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a>. 
 The app follows Clean Architecture principles and uses modern Android development best practices.
 
 Key Features 🚀
