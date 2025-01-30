@@ -59,5 +59,6 @@ dependencies {
     implementation (libs.retrofit)
     implementation (libs.converter.gson)
     testImplementation (libs.mockk)
+    testImplementation(libs.mockwebserver)
     testImplementation (libs.kotlinx.coroutines.test)
 }
