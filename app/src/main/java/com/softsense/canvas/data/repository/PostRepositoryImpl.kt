@@ -7,8 +7,9 @@ import com.softsense.canvas.domain.model.Post
 import com.softsense.canvas.domain.repository.PostRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
+import javax.inject.Inject
 
-class PostRepositoryImpl(private val apiService: PostApiService) : PostRepository {
+class PostRepositoryImpl @Inject constructor(private val apiService: PostApiService) : PostRepository {
     override fun getPosts(): Flow<List<Post>> = flow {
         val users = apiService.getUsers()
         val posts = apiService.getPosts()
